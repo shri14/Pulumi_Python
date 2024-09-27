@@ -1,0 +1,11 @@
+name: eks
+runtime:
+  name: python
+  options:
+    toolchain: pip
+    virtualenv: venv
+description: eks-cluster
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: aws-python
